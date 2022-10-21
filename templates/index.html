@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Prescribing Employability Profiles</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+   <link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag-map_of_the_Democratic_Republic_of_the_Congo.svg/607px-Flag-map_of_the_Democratic_Republic_of_the_Congo.svg.png?20150131003052" 
+        type = "image/x-icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static',filename='assets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href= "{{ url_for('static',filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static',filename='assets/css/style.css')}}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-key"></i> Promoting decent and formal job for all the Information Technology Congolese graduates
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-speedometer2"></i> BERecSITEmP System
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="{{ url_for('static',filename='assets/img/logo.png')}}" alt=""> <img src="{{ url_for('static',filename='assets/img/logo2.png')}}" alt=""> <b style="font-size:15px">Recommending Suitable Employability Profiles to Congolese IT Students</b></a>
+ 
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="" class="appointment-btn scrollto"><span class="d-none d-md-inline">A Ph.D research</span> artifact</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(static/assets/img/slide/slide-1.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>BERecSITEmP System</span></h2>
+            <p>BERT Recommender System for IT Employability Profile (BERecSITEmP) is a prototype of a BERT-based
+			Recommendation System destined to recommend the employability profile to students 
+			enrolling in any IT Course in Congolese Universities. The student has to fill his/her background in
+			the form below and the system returns three profiles of IT graduates who had the same backgrounds
+			entered as a query by the student and informs him/her which profile can be suitable for him/her
+			that could make him/her be employed after his/her IT studies</p>
+            <a href="#fillbackground" class="btn-get-started scrollto">Click here to fill your socio-political background to know your suitable employability profile</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-2.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>BERecSITEmP System</span></h2>
+            <p>BERT Recommender System for IT Employability Profile (BERecSITEmP) is a prototype of a BERT-based
+			Recommendation System destined to recommend the employability profile to students 
+			enrolling in any IT Course in Congolese Universities. The student has to fill his/her background in
+			the form below and the system returns three profiles of IT graduates who had the same backgrounds
+			entered as a query by the student and informs him/her which profile can be suitable for him/her
+			that could make him/her be employed after his/her IT studies</p>
+            <a href="#fillbackground" class="btn-get-started scrollto">Click here to fill your socio-political background to know your suitable employability profile</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-3.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>BERecSITEmP System</span></h2>
+            <p>BERT Recommender System for IT Employability Profile (BERecSITEmP) is a prototype of a BERT-based
+			Recommendation System destined to recommend the employability profile to students 
+			enrolling in any IT Course in Congolese Universities. The student has to fill his/her background in
+			the form below and the system returns three profiles of IT graduates who had the same backgrounds
+			entered as a query by the student and informs him/her which profile can be suitable for him/her
+			that could make him/her be employed after his/her IT studies</p>
+            <a href="#fillbackground" class="btn-get-started scrollto">Click here to fill your socio-political background to know your suitable employability profile</a>
+          </div>
+        </div>
+		<!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-4.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>BERecSITEmP System</span></h2>
+            <p>BERT Recommender System for IT Employability Profile (BERecSITEmP) is a prototype of a BERT-based
+			Recommendation System destined to recommend the employability profile to students 
+			enrolling in any IT Course in Congolese Universities. The student has to fill his/her background in
+			the form below and the system returns three profiles of IT graduates who had the same backgrounds
+			entered as a query by the student and informs him/her which profile can be suitable for him/her
+			that could make him/her be employed after his/her IT studies</p>
+            <a href="#fillbackground" class="btn-get-started scrollto">Click here to fill your socio-political background to know your suitable employability profile</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero --> 	
+
+  <main id="main">
+
+
+    <!-- ======= No matching results Section ======= -->
+	{% if no_matching_results is defined %}
+<!-- ======= We set 2 seconds before redirecting to the no_matching_results id ======= -->
+<script>
+setTimeout(function(){
+            window.location.href = '#no_matching_results';
+         }, 2000);
+</script> 
+		<section id="no_matchedresults" class="about">
+			<div class="container" data-aos="fade-up">
+
+			<div class="section-title">
+			<h2>No matched results</h2>
+			</div>
+
+			<div class="row">
+			<div class="col-lg-6" data-aos="fade-right">
+				<img src="{{ url_for('static', filename='assets/img/about1.jpg')}}" class="img-fluid" alt="">
+				<br/><br/>
+				<a class='btn btn-success' href=""> Go back to the form </a>
+			</div>
+			
+			<div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+			
+				<h3 style="text-align:justify;">Your background presents the higher possiblity of not getting employed after graduation if you enroll 
+				in any IT program</h3> <br/>
+				<p class="fst-italic" style="text-align:justify;">
+				{% set degreeNoMatch = no_matching_results %}
+				{% if degreeNoMatch =='Master'%}
+					{% set degreeNoMatchAl ='Bachelor' %}
+				{% else %}
+					{% set degreeNoMatchAl ='Master' %}
+				{% endif %}
+				
+              We are sorry to inform you that after analyzing your socio-political and economic background and the 
+			  Degree (<b style="color:red;">{{no_matching_results}}</b>) you want to enroll in, no IT graduate who had such a profile has been employed. Please,
+			  either
+			  
+				</p>
+				<ul>
+					<li><i class="bi bi-check-circle"></i> Click <a class='btn btn-success' href="">here</a>
+					to try to choose a <b style="color:red;">{{ degreeNoMatchAl }} </b> Degree with the same background of course and see if we can 
+					find similar profiles to recommend to you</li>
+					<li><i class="bi bi-check-circle"></i> Or don't enroll in any IT program if you don't want to be
+					unemployed after your graduation.
+					<li>
+					</ul>
+				
+			</div>
+			</div>
+
+			</div>
+		</section><!-- No matching results Section -->
+	{% endif %}
+
+   
+    <!-- ======= Filling background Section ======= -->
+    <section id="fillbackground" class="appointment section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Please, fill your socio-political background</h2>
+          <p></p>
+        </div>
+
+        <form action="" method="post" role="form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <select name="Degree" id="department" class="form-select">
+                <option value="">Which Degree are you enrolling in?</option>
+                {% for Degree in list_degree %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{Degree}}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="BornWar" id="department" class="form-select">
+                <option value="">Were You Born in a War Zone?</option>
+                {% for BornWar in list_bornwar %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{BornWar}}</option>
+                {% endfor %}  
+              </select>
+            </div>
+             <div class="col-md-4 form-group mt-3">
+              <select name="PoliticianFam" id="doctor" class="form-select">
+                <option value="">Do you have politicians in your family?</option>
+                {% for PoliticianFam in list_polfam %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{PoliticianFam}}</option>
+                {% endfor %} 
+              </select>
+            </div>
+			</div>
+           <div class="form-group mt-3">
+             <select name="Family" id="doctor" class="form-select">
+                <option value="">What is the financial situation of your family?</option>
+                {% for Family in list_family %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{Family}}</option>
+                {% endfor %} 
+              </select>
+          </div>
+		            <div class="form-group mt-3">
+             <select name="AdminstrativeFam" id="doctor" class="form-select">
+                <option value="">Do you have family members who work in public administration?</option>
+                {% for AdminstrativeFam in list_admfam %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{AdminstrativeFam}}</option>
+                {% endfor %} 
+              </select>
+          </div>
+		  <div class="form-group mt-3">
+             <select name="CompanyFam" id="doctor" class="form-select">
+                <option value="">Do you have family members who work in private companies?</option>
+                {% for CompanyFam in list_comfam %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{CompanyFam}}</option>
+                {% endfor %} 
+              </select>
+          </div>
+    
+
+           <div class="form-group mt-3">
+             <select name="InstitutionLocation" id="doctor" class="form-select">
+                <option value="">Where the university you are enrolling in is located?</option>
+                {% for InstitutionLocation in list_instloc %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{InstitutionLocation}}</option>
+                {% endfor %} 
+              </select>
+          </div>
+		     <div class="row">
+		   <div class="form-group mt-3">
+             <select name="SchoolWar" id="doctor" class="form-select">
+                <option value="">Is this University located in a War Zone?</option>
+                {% for SchoolWar in list_schwar  %}
+                <option style="font-size:15pt;color:blue;font-style:bold;">{{SchoolWar}}</option>
+                {% endfor %} 
+              </select>
+          </div>
+</div>
+           <br/> 
+          <div class="text-center">
+		
+			<button class="btn btn-success" type="submit">Recommender</button>
+		  
+		  </div>
+        </form>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+    
+    <!-- ======= Doctors Section ======= -->
+ 
+	{% if similar_backgrounds is defined %}
+<!-- ======= We set 2 seconds before redirecting to the matchedresults id ======= -->
+<script>
+setTimeout(function(){
+            window.location.href = '#matchedresults';
+         }, 2000);
+</script> 
+<!-- ======= End of time setting======= -->
+	    <section id="matchedresults" class="doctors section-bg">
+			<div class="container" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2>Matched results</h2>
+					<p style="text-align:justify;"> 
+					Please scroll down to see the different recommendations according to your socio-political and background 
+					given as query. The profiles below correspond to the profiles of IT graduates who had the same 
+					socio-political and economic backgrounds as you and were employed after their graduation. By choosing one of these profiles 
+					as your IT student, you have the chance to optimize your employability.
+					</p><br/>
+					<a class='btn btn-success' href=""> Click here to check again by changing the Degree in which you want to enroll in
+					(Master or Bachelor)</a>
+          </div>
+					
+					
+				</div>
+
+				<div class="row">
+				
+				    {% for backgroundData in similar_backgrounds %}
+
+						<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+							<div class="member" data-aos="fade-up" data-aos-delay="100">
+								<div class="member-img">
+									<img src="{{ backgroundData.Avatar }}" class="img-fluid" alt="">
+
+								</div>
+								<div class="member-info">
+									<p style="font-size:11pt;text-align:justify;">
+										This IT Graduate Completed <b style="color:red;font-style:bold;">{{ backgroundData.Degree }}</b>'s Degree in 
+										<b style="color:red;font-style:bold;">{{ backgroundData.Specialisation }}</b> and Had the Simililar
+										Socio-political and economics Background like You. The Graduate is <b style="color:red;font-style:bold;"> 
+										{{ backgroundData.Employed }}</b> and Had <b style="color:red;font-style:bold;">{{backgroundData.SpecialisationCompetence }}
+										</b>Level of Competency in <b style="color:red;font-style:bold;">{{ backgroundData.Specialisation }}</b> and 
+										<b style="color:red;font-style:bold;">{{ backgroundData.ITCompetence }}</b> Level of Knowledge in Information 
+										Technology in General.
+										
+										
+									<br/>	<br/>	
+									<b style="color:red;font-style:bold;">Recommendation </b>: 
+									Regarding your socio-political and economic background matching with this IT graduate, the
+									suitable employability profile for you might be:<br/> <br/>
+									<b style="color:red;font-style:bold;">
+									1. </b> Take a {{ backgroundData.Degree }} Degree in {{ backgroundData.Specialisation }} <br/>
+									<b style="color:red;font-style:bold;">
+									2. </b> Acquire at least a {{backgroundData.ITCompetence }} level of skills in General IT before your graduation<br/>
+									<b style="color:red;font-style:bold;">
+									3. </b> Acquire at least a {{backgroundData.SpecialisationCompetence }} level of skills in {{ backgroundData.Specialisation }} before your graduation
+									
+									</p>
+										
+								</div>
+							</div>
+						</div>
+						
+					{% endfor %}
+
+				</div>
+
+			</div>
+			</section><!-- End Doctors Section -->
+			
+	{% endif %}
+    
+
+   
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2022-<script>document.write(new Date().getFullYear())</script>, <a href="https://www.kcau.ac.ke" rel="sponsored" target="_parent">KCA University</a></span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+       Nsenge Mpia Héritier | Ph.D. Candidate at <a href="https://orcid.org/0000-0001-7428-8092" class="tm-footer-link" rel="sponsored" target="_parent">KCA University/School of Technology</a></p>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src= "{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js')}}"></script>
+  <script src= "{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js')}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='assets/js/main.js')}}"></script>
+
+</body>
+
+</html>
